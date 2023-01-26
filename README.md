@@ -1,4 +1,4 @@
 # assignment
 Git Assignment
 
-Changes from feature2
+Changes using feature2 branch
