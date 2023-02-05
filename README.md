@@ -13,20 +13,9 @@ changes in step 7
 Step 1 :
 # Making repository Production
 
-      git init Production
-      cd Production/
-      
-      # creating master branch
-      
-      git branch Integration
-      git commit -m "Master branch created"
-      
-      # Adding a readme file
-      
-      mate README.md
-      git add README.md 
-      git commit -m "Master branch created"
-      
+      git init assignment
+      cd assignment/
+
       # Creating Integration branch
       
       git branch Integration
@@ -37,8 +26,8 @@ Step 1 :
 Step 2 : #creating Feature 1 and 2 branches that integrate to the Integration branch
 
       git checkout -b Feature1 Integration
-      git checkout master
       git checkout -b Feature2 Integration
+      
 Step 3 : Done through github
 
 Step 4 : git checkout Feature1
@@ -83,14 +72,14 @@ Step 6 : git checkout Feature1
      git checkout HotFix
      git merge --no-f Feature1
      
-     #Merging with master
+     #Merging with main
      
-     git checkout master
+     git checkout main
      git merge --no-f Feature1
 Step 7 : #Made changes in HotFix through github and created pull request
 
      git checkout Integration
      git merge --no-ff HotFix
 
-     git checkout master
+     git checkout main
      git merge --no-ff HotFix  
